@@ -19,7 +19,7 @@
       };
       getDateData = function(endDate) {
         var dateData, diff;
-        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(_this.options.date));
+        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2021,1,10));
         diff = (endDate - Date.parse(new Date)) / 1000;
         if (diff <= 0) {
           diff = 0;
@@ -30,10 +30,10 @@
         }
         dateData = {
           years: 0,
-          days: 15,
-          hours: 12,
-          min: 4,
-          sec: 55,
+          days: 0,
+          hours: 0,
+          min: 0,
+          sec: 0,
           millisec: 0
         };
         if (diff >= (365.25 * 86400)) {
@@ -97,7 +97,7 @@
       return this.init();
     };
     $.countdown.defaultOptions = {
-      date: "June 7, 2087 15:03:25",
+      date: "January 4, 2021 15:03:25",
       refresh: 1000,
       onEnd: $.noop,
       render: function(date) {
