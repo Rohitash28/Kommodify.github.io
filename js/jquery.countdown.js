@@ -19,7 +19,7 @@
       };
       getDateData = function(endDate) {
         var dateData, diff;
-        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2021,1,10));
+        endDate = Date.parse($.isPlainObject(_this.options.date) ? _this.options.date : new Date(2021,1,11));
         diff = (endDate - Date.parse(new Date)) / 1000;
         if (diff <= 0) {
           diff = 0;
