@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Kommodify The Creator's Place</title>
+<meta name="description" content="">
+<meta name="Kommodify" content="Coming Soon">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link href="css/animate.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="css/styles.css" />
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container">
+    <div class="container">
+      <div class="row">
+        <div class="logo"> <!--<img src="images/logo.png" alr='logo'/> --></div>
+      </div>
+      <div class="heading text-center">
+        <h1>Kommodify</h1>
+        <h3>We Value Creation and Creators</h3>
+        <strong>Stay tuned for something amazing</strong> </div>
+      <div class="countdown styled"><p id="demo"></p> </div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+      
+    </div>
+  </div>
+</section>
+<section id="services" class="page-section colord">
+  <div class="container">
+    <div class="row"> 
+      
+      <div class="col-md-3 text-center"> 
+	  <div class="box">
+	  <i class="fa fa-file fa-2x circle"></i>
+        <h3>Data Security</h3>
+        <p>Where do you think your data is secure? NOWHERE! So we provide an IPFS-based data safety.</p>
+      </div>
+	  </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"> 
+	  <div class="box">
+	  <i class="fa fa-rocket fa-2x circle"></i>
+        <h3>Attraction</h3>
+        <p>Are you having difficulties selling your creations? Try our booster-seller programs.</p>
+      </div> </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"> 
+	  <div class="box">
+	  <i class="fa fa-lightbulb-o fa-2x circle"></i>
+	  <h3>Execution</h3>
+        <p>Are you just another person with ideas but shy to create something? We can help you achieve it.</p>
+      </div> </div>
+       
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"> 
+	  <div class="box">
+	  <i class="fa fa-globe fa-2x circle"></i>
+	   <h3>Globalization</h3>
+        <p>Are you having difficulties showcasing your talents globally? We are here to help.</p>
+      </div> </div>
+        
+      <!-- end:--> 
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<section id="aboutUs">
+  <div class="container">
+    <div class="row feature design">
+      <div class="six columns right">
+        <h2>Kommodify</h2>
+        <p>The world is changing and so are the beings living in it. We as humans are creating more marvels in a day than the entire 19th Century did. This world full of creators deserve something better, something that make creators feel attached to their creations.</p>
+
+        <p>We made a promise to ourselves and to this world to be the most creator-centric organization, and we very well intend to keep it. The world is changing and we want to ride the next wave of change with you.</p>
+      </div>
+      <div class="six columns feature-media left"> <img src="images/business.jpg" alt=""> </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="social text-center"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-flickr"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+    <div class="clear"></div>
+    <!--CLEAR FLOATS--> 
+  </div>
+</footer>
+<!--/.page-section-->
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center"> Copyright 2021 | All Rights Reserved - <a href="#" target="_blank">Kommodify</a> by Daniel and Goyal </div>
+    </div>
+ 
+  </div>
+</section>
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script> 
+<script src="js/waypoints.js"></script> 
+<script src="js/Backstretch.js" type="text/javascript"></script> 
+<script src="js/custom.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+</body>
+</html>
